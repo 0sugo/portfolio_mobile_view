@@ -49,3 +49,24 @@ body {
     color: inherit;
     text-decoration: none;
   }
+  .banner h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+  }
+  
+  .banner p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+  }
+  
+  .banner span {
+    color: #36b37f;
+  }
