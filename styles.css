@@ -70,3 +70,23 @@ body {
   .banner span {
     color: #36b37f;
   }
+
+  .social-media ul {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    justify-content: center;
+  }
+  
+  .social-media ul li {
+    flex: 1;
+    color: #505f79;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #chev {
+    margin-top: 12%;
+    text-align: center;
+  }
+  
