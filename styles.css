@@ -10,3 +10,42 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   }
+  li {
+    list-style-type: none;
+  }
+  
+  .menu {
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    color: #352829;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0;
+  }
+  
+  #menu-icon {
+    font-size: 20px;
+    padding-right: 50px;
+  }
+  
+  #logo {
+    padding-left: 30px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  
+  li a {
+    color: inherit;
+    text-decoration: none;
+  }
