@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
   width: auto;
   margin: 0;
   height: 100vh;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .start {
@@ -58,7 +58,7 @@ li a {
   font-size: 18px;
   line-height: 16px;
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .banner h1 {
@@ -68,7 +68,7 @@ li a {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .banner p {
@@ -78,7 +78,7 @@ li a {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .banner span {
@@ -92,7 +92,7 @@ li a {
   padding-bottom: 10%;
 }
 
-.social-media ul li {
+.social-media li {
   flex: 1;
   color: #505f79;
   font-size: 20px;
@@ -118,7 +118,7 @@ li a {
 }
 
 .topper h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -174,7 +174,7 @@ li a {
 
 .work-details h1 {
   margin: 12px 0 0 0 !important;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -198,7 +198,7 @@ li a {
 
 .language-tags li {
   list-style: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -219,7 +219,7 @@ li a {
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -229,11 +229,15 @@ li a {
   color: #fff;
 }
 
-.works-button:hover { box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24); }
+.works-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
 
-.works-button:active { background: #008552; }
+.works-button:active {
+  background: #008552;
+}
 
-/*about me section*/
+/* about-me-section */
 
 .about-me {
   display: flex;
@@ -256,7 +260,7 @@ li a {
 }
 
 .about-me-topper {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -266,7 +270,7 @@ li a {
 }
 
 .about-me-text p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -276,32 +280,37 @@ li a {
   margin: 0 0 24px 0;
 }
 
-.about-me-text a{
+.about-me-text a {
   padding: 12px;
   width: 135px;
   height: 24px;
   margin: 0;
   background: #36b37f;
   border-radius: 4px;
-text-align: center;
-  text-decoration: none; font-family: 'Inter', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-font-size: 17px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   color: #fff;
 }
 
-.about-me-button:hover { box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24); }
+.about-me-button:hover {
+  box-shadow: 0 8px 16px #008552;
+}
 
-.about-me-button:active { background: #008552; }
+.about-me-button:active {
+  background: #008552;
+}
 
 .about-me-card {
   padding: 1px;
   height: 1106px;
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -315,7 +324,7 @@ display: flex;
   background: url("images/imgbg.png");
   background-size: cover;
   background-repeat: no-repeat;
-display: grid;
+  display: grid;
   grid-template-rows: auto auto;
   align-content: space-evenly;
 }
@@ -323,16 +332,16 @@ display: grid;
 .card-details {
   display: grid;
   align-content: space-between;
-align-items: center;
+  align-items: center;
   justify-items: center;
 }
 
 .card-details p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
-font-weight: 600;
+  font-weight: 600;
   font-size: 24px;
-line-height: 32px;
+  line-height: 32px;
   text-align: center;
   color: #344563;
   margin: 0;
@@ -342,8 +351,9 @@ line-height: 32px;
   margin: 0;
   padding: 0;
   display: flex;
- margin-top: 24px;
-  flex-wrap: wrap;  width: 100%;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  width: 100%;
   margin-right: 12px;
   margin-left: 12px;
   justify-content: center;
@@ -351,8 +361,8 @@ line-height: 32px;
 
 .card-details li {
   list-style: none;
-  font-family: 'Inter', sans-serif;
-font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
