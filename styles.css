@@ -22,18 +22,18 @@ li {
   padding: 5px;
   text-align: center;
   align-items: center;
-  height: 50px;
+  height: 30px;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
   color: #352829;
+  padding-top: 5%;
 }
 
 .toolbar {
   display: flex;
   justify-content: space-between;
   flex: 1;
-  padding: 0;
 }
 .toolbar a{
 text-decoration: none;
@@ -42,11 +42,12 @@ color:inherit
 
 #menu-icon {
   font-size: 20px;
-  padding-right: 50px;
+  padding-right: 30px;
+  padding-top: 0px;
 }
 
 #logo {
-  padding-left: 30px;
+  padding-left: 20px;
   font-style: normal;
   font-size: 18px;
   line-height: 16px;
@@ -72,7 +73,7 @@ li a {
 .banner p {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   text-align: center;
   color: #172b4d;
@@ -86,8 +87,8 @@ li a {
 .social-media ul {
   display: flex;
   flex-wrap: nowrap;
-  width: 80%;
   justify-content: center;
+  padding-bottom: 10%;
 }
 
 .social-media ul li {
@@ -98,6 +99,6 @@ li a {
 }
 
 #chev {
-  margin-top: 12%;
   text-align: center;
+  height: 40px;
 }
