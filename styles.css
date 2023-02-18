@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
   width: auto;
   margin: 0;
   height: 100vh;
+  font-family: "Inter", sans-serif;
 }
 
 .start {
@@ -57,7 +58,7 @@ li a {
   font-size: 18px;
   line-height: 16px;
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .banner h1 {
@@ -67,7 +68,7 @@ li a {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .banner p {
@@ -77,7 +78,7 @@ li a {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .banner span {
@@ -91,7 +92,7 @@ li a {
   padding-bottom: 10%;
 }
 
-.social-media ul li {
+.social-media li {
   flex: 1;
   color: #505f79;
   font-size: 20px;
@@ -101,4 +102,276 @@ li a {
 #chev {
   text-align: center;
   height: 40px;
+}
+
+/* recent works */
+.recent-works {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+  padding: 0 24px 0 24px;
+}
+
+.topper {
+  margin-right: 26px;
+  margin-left: 26px;
+}
+
+.topper h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  height: 97px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 22px;
+  margin-bottom: 24px;
+}
+
+.indicator {
+  background: url("images/Indicator.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  text-align: center;
+  height: 4px;
+  width: 48px;
+}
+
+.recent-works-cards {
+  margin: 58px 0 0 0;
+  padding: 4px 2px;
+  height: 2972px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.works {
+  background: url("images/imgbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 474px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.work-details {
+  display: grid;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  height: 222px;
+  background: #fff;
+  border-radius: 8px;
+  align-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+.work-details h1 {
+  margin: 12px 0 0 0 !important;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #3a4a42;
+  padding: 0 10px;
+}
+
+.work-details ul {
+  margin: 0;
+}
+
+.language-tags {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0;
+}
+
+.language-tags li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  padding: 8px 8px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.works-button {
+  padding: 12px;
+  width: 98px;
+  height: 24px;
+  margin-bottom: 20px;
+  background: #36b37f;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.works-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.works-button:active {
+  background: #008552;
+}
+
+/* about-me-section */
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+}
+
+.about-me-text {
+  background-image: url("images/illustration.svg"), url("images/abtme.svg");
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  height: 380px;
+  justify-content: flex-end;
+  margin-bottom: 59px;
+}
+
+.about-me-topper {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-bottom: 24px;
+}
+
+.about-me-text p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 0 0 24px 0;
+}
+
+.about-me-text a {
+  padding: 12px;
+  width: 135px;
+  height: 24px;
+  margin: 0;
+  background: #36b37f;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.about-me-button:hover {
+  box-shadow: 0 8px 16px #008552;
+}
+
+.about-me-button:active {
+  background: #008552;
+}
+
+.about-me-card {
+  padding: 1px;
+  height: 1106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card {
+  height: 352px;
+  background: url("images/imgbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-content: space-evenly;
+}
+
+.card-details {
+  display: grid;
+  align-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+.card-details p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+  margin: 0;
+}
+
+.card-details ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-right: 12px;
+  margin-left: 12px;
+  justify-content: center;
+}
+
+.card-details li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-right: 8px;
 }

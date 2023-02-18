@@ -23,7 +23,7 @@
 
 
 
-**[Portfolio_mobile_view]** This is a simple project that shows information about me  and what I do.
+**[Portfolio_mobile_view]** This is a simple project that shows information about me  and what I do.It also contains some of the jobs Have done together with the technology stack I used.
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML.
@@ -81,8 +81,6 @@ Run it in your local server.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Adding my recent works section.
-- More about myself.
 - Attaching my resume.
 - Adding a contact form 
 
