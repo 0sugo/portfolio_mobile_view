@@ -101,15 +101,15 @@ li a {
 }
 
 #chev {
-  display:flex;
+  display: flex;
 }
-#savg{
+
+#savg {
   text-align: center;
   height: 40px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 /* recent works */
@@ -205,21 +205,6 @@ li a {
 }
 
 .language-tags li {
-  list-style: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #3a4a42;
-  padding: 8px 8px;
-  background: #ebf0ee;
-  border-radius: 4px;
-}
-
-.language-tags li{
-  margin: 2px;
   list-style: none;
   font-family: "Inter", sans-serif;
   font-style: normal;
