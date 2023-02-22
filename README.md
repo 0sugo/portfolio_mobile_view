@@ -77,6 +77,11 @@ Run it in your local server.
 - Twitter: [@twitterhandle](https://twitter.com/osugo5)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/joseck-osugo-873b0618a/)
 
+ **naledi Dikgale**
+
+- GitHub: [@githubhandle](https://github.com/Naledi-Dikgale)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/naledi-dikgale-068423159/)
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
