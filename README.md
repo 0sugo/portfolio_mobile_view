@@ -73,17 +73,20 @@ Run it in your local server.
 
 👤 **JOSECK OSUGO**
 
-- GitHub: [@githubhandle](https://github.com/0sugo)
-- Twitter: [@twitterhandle](https://twitter.com/osugo5)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/joseck-osugo-873b0618a/)
+- GitHub: [0sugo](https://github.com/0sugo)
+- Twitter: [@0sugo5](https://twitter.com/osugo5)
+- LinkedIn: [Joseck Osugo](https://www.linkedin.com/in/joseck-osugo-873b0618a/)
+
+ **NALEDI DIKGALE**
+
+- GitHub: [Naledi dikgale](https://github.com/Naledi-Dikgale)
+- LinkedIn: [Naledi Dikgale](https://www.linkedin.com/in/naledi-dikgale-068423159/)
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Attaching my resume.
-- Adding a contact form 
-
 
 <!-- CONTRIBUTING -->
 
@@ -96,7 +99,6 @@ Feel free to check send me a message using the social media accounts stated abov
 
 <!-- SUPPORT -->
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, give it a star .
@@ -107,8 +109,6 @@ If you like this project, give it a star .
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank microverse for issuing this project to the students.
-
-
 
 <!-- LICENSE -->
 
