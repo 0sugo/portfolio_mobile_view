@@ -80,6 +80,7 @@ li a {
   text-align: center;
   color: #172b4d;
   font-family: "Inter", sans-serif;
+  padding-top: 10%;
 }
 
 .banner span {
@@ -90,18 +91,19 @@ li a {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  padding-bottom: 10%;
 }
 
 .social-media li {
-  flex: 1;
   color: #505f79;
+  margin: 10px;
   font-size: 20px;
   text-align: center;
+  padding-top: 6%;
 }
 
 #chev {
   display: flex;
+  margin: 10%;
 }
 
 #savg {
@@ -383,6 +385,7 @@ li a {
   margin-bottom: 8px;
   margin-right: 8px;
 }
+
 .form {
   background-image: url("images/illustration-contact-form.svg");
   background-position: right bottom;
@@ -398,6 +401,7 @@ li a {
   text-align: center;
   color: #172b4d;
   padding: 0 24px;
+  margin-bottom: 5%;
 }
 
 .contact_form {
@@ -463,9 +467,13 @@ input {
   color: #fff;
 }
 
-#submit:hover { box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24); }
+#submit:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
 
-#submit:active { background: #008552; }
+#submit:active {
+  background: #008552;
+}
 
 footer h4 {
   height: 189px;
