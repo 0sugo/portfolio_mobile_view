@@ -19,6 +19,10 @@ li {
   list-style-type: none;
 }
 
+.navigation{
+  display: none;
+}
+
 .menu {
   padding: 5px;
   text-align: center;
@@ -182,7 +186,7 @@ li a {
   justify-items: center;
 }
 
-.work-details h1 {
+.work-details h3 {
   margin: 12px 0 0 0 !important;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -485,4 +489,65 @@ footer h4 {
   line-height: 32px;
   color: #42526e;
   margin-bottom: 147px;
+}
+
+@media screen and (min-width:768px){
+/* nav-bar */
+  .menu{
+    display: none;
+  }
+  .navigation{
+    display: inline;
+    width: 100%;
+    padding-bottom: ;
+
+  }
+  .desktop-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+  }
+  .desktop-nav li{
+    margin: 10px;
+
+  }
+
+  /* recent-works */
+  .recent-works-cards{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   gap:24px;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0px;
+   height:988px;
+   width: auto;
+   
+}
+.works{
+  width: 30.33%;
+}
+
+.language-tags{
+  display: flex;
+  flex:1;
+  
+}
+
+.language-tags li{
+  font-weight: 600;
+  font-size: 10px;
+  color: #3a4a42;
+  padding: 1px 3px;
+  background: #ebf0ee;
+  border-radius: 4px;
+
+}
+.work-details h3{
+padding-top: 20px;
+font-size: 22px;
+}
 }
