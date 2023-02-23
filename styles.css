@@ -261,7 +261,7 @@ li a {
 }
 
 .about-me-text {
-  background-image: url("images/illustration.svg"), url("images/abtme.svg");
+  background-image: url("images/top-tail.svg"), url("images/abtme.svg");
   background-position: right top, left bottom;
   background-repeat: no-repeat, no-repeat;
   display: flex;
@@ -269,6 +269,7 @@ li a {
   align-items: center;
   padding: 0;
   height: 380px;
+  width: 351px;
   justify-content: flex-end;
   margin-bottom: 59px;
 }
@@ -286,10 +287,11 @@ li a {
 .about-me-text p {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
+  justify-content: center;
   color: #42526e;
   margin: 0 0 24px 0;
 }
@@ -492,7 +494,10 @@ footer h4 {
 }
 
 @media screen and (min-width:768px){
-/* nav-bar */
+body{
+
+}
+  /* nav-bar */
   .menu{
     display: none;
   }
@@ -513,7 +518,14 @@ footer h4 {
     margin: 10px;
 
   }
-
+/* indicator */
+#chev{
+  display: none;
+}
+  /* indicator */
+.indicator{
+  display: none;
+}
   /* recent-works */
   .recent-works-cards{
    box-sizing: border-box;
@@ -550,4 +562,6 @@ footer h4 {
 padding-top: 20px;
 font-size: 22px;
 }
+
+
 }
