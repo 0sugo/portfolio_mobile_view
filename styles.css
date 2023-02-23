@@ -495,7 +495,7 @@ footer h4 {
 
 @media screen and (min-width:768px){
 body{
-
+  
 }
   /* nav-bar */
   .menu{
@@ -563,5 +563,43 @@ padding-top: 20px;
 font-size: 22px;
 }
 
+/* about-me */
+.about-me-text {
+  background-image: url("images/top-tail.svg"), url("images/abtme.svg");
+  background-size: 100px;
+  background-position: right 10%, left 60%;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+
+}
+#about-me-para {
+width: 510px;
+font-size: 20px;
+
+}
+
+.about-me-card {
+  box-sizing: border-box;
+  padding: 1px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+/* languages frameworks skills */
+.lang-card{
+  width: 33%;
+  height: 352px;
+  
+}
+.framework-card{
+  width: 33%;
+  height: 352px;
+}
+.skills-card{
+  width: 33%;
+  height: 352px;
+}
 
 }
