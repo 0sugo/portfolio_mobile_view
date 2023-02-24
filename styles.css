@@ -496,7 +496,13 @@ hr{
   display: none;
 }
 @media screen and (min-width:768px){
-body{
+
+  .start {
+  background: url("images/Header-llustration-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: top -60%;
+  height:100%;
   
 }
   /* nav-bar */
@@ -523,16 +529,41 @@ body{
 
   }
   /* banner */
-  
-/* indicator */
-#chev{
-  display: none;
-}
+  .banner{
+    margin-top: 8%;
+    margin-bottom: 0%;
+
+  }
+  .banner h1{
+    font-size: 40px;
+    width: 690px;
+    margin-left: 5%;
+  }
+  .banner p{
+    width: 570px;
+    margin-left: 13%;
+    padding-top: 2%;
+  }
+  /* social-media */
+  .social-media ul{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+  }
+
   /* indicator */
 .indicator{
   display: none;
 }
   /* recent-works */
+  .topper{
+    position: relative;
+    margin-bottom: 0%;
+
+  }
+  .recent-works{
+    margin-top: 5%;
+  }
   .recent-works-cards{
    box-sizing: border-box;
    display: flex;
@@ -572,16 +603,16 @@ font-size: 22px;
 /* about-me */
 .about-me-text {
   background-image: url("images/top-tail.svg"), url("images/abtme.svg");
-  background-size: 100px;
-  background-position: right 10%, left 60%;
+  background-size: 80px;
+  background-position: right 50%, left 70%;
   align-items: center;
   height: 300px;
   width: 100%;
 
 }
 #about-me-para {
-width: 510px;
-font-size: 20px;
+width: 550px;
+font-size: 17px;
 
 }
 
@@ -596,33 +627,34 @@ font-size: 20px;
 /* languages frameworks skills */
 .lang-card{
   width: 33%;
-  height: 352px;
+  height: auto;
   
 }
 .framework-card{
   width: 33%;
-  height: 352px;
+  height: auto;
 }
 .skills-card{
   width: 33%;
-  height: 352px;
+  height: auto;
 }
 /* form */
 .form{
-  height:38% ;
   background-image: url(images/kando-left.svg),url(images/kando.svg),url(images/rock.svg);
   background-position:left 99%,right 97%,16% 90%;
-  background-size: 70px;
+  background-size: 7%;
   display: grid;
-  grid-template-columns: 430px auto;
+  grid-template-columns:370px auto;
   align-items: center;
+  height: 45%;
+  position: relative;
 }
 .form h2{
-  font-size: 30px;
+  font-size: 20px;
   text-align: start;
   align-items: center;
   line-height: 42px;
-  margin-top:-30 ;
+  margin-top:-30px ;
 }
 .form-inputs{
   display: flex;
