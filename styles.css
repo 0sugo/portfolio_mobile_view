@@ -504,7 +504,7 @@ hr {
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: top -60%;
-    height: 110%;
+    height: 90%;
   }
 
   /* nav-bar */
@@ -653,7 +653,7 @@ hr {
   .form {
     background:
       url(images/kando-left.svg) left 99%/15%,
-      url(images/kando.svg) right 85%/10%,
+      url(images/kando.svg) right 87%/10%,
       url(images/rock.svg) 20% 90%/10%;
     background-repeat: no-repeat;
     display: grid;
