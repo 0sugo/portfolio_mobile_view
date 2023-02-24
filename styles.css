@@ -175,6 +175,7 @@ li a {
   border-radius: 8px;
 }
 
+
 .work-details {
   display: grid;
   grid-template-rows: 33.33% 33.33% 33.33%;
@@ -231,7 +232,7 @@ li a {
   margin-bottom: 20px;
   background: #36b37f;
   border-radius: 4px;
-  text-align: center;
+  text-align: end;
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -241,6 +242,7 @@ li a {
   align-items: center;
   letter-spacing: 0.03em;
   color: #fff;
+
 }
 
 .works-button:hover {
@@ -316,13 +318,12 @@ li a {
   color: #fff;
 }
 
-.about-me-button:hover {
+/* .about-me-button:hover {
   box-shadow: 0 8px 16px #008552;
 }
-
 .about-me-button:active {
   background: #008552;
-}
+}  */
 
 .about-me-card {
   padding: 1px;
@@ -429,6 +430,7 @@ li a {
   margin-bottom: 24px;
 }
 
+textarea,
 input {
   width: 100%;
   height: 48px;
@@ -442,8 +444,12 @@ input {
   font-size: 15px;
   line-height: 24px;
   padding: 15px 16px;
+  outline: none;
 }
-
+textarea,
+input:focus {
+  border: 1px solid #60c095;
+}
 .form textarea {
   width: 100%;
   height: 114px;
@@ -585,6 +591,9 @@ hr {
   .works {
     width: 30.33%;
   }
+  .work5:hover{
+    background: red;
+  }
 
   .language-tags {
     display: flex;
@@ -633,16 +642,26 @@ hr {
   .lang-card {
     width: 33%;
     height: auto;
+    border-radius:8px;
+    border: 1px solid #d0d9d4;
+  }
+  .lang-card:hover{
+    border: 9px solid red;
+    /* #60c095 */
   }
 
   .framework-card {
     width: 33%;
     height: auto;
+    border-radius:8px;
+    border: 1px solid #d0d9d4;
   }
 
   .skills-card {
     width: 33%;
     height: auto;
+    border-radius:8px;
+    border: 1px solid #d0d9d4;
   }
 
   /* form */
@@ -690,4 +709,12 @@ hr {
     height: 1px;
     color: #dfe1e6;
   }
+
+.about-me-button:hover {
+  box-shadow: 0 8px 16px #008552;
+}
+.about-me-button:active {
+  background: #008552;
+} 
+
 }
