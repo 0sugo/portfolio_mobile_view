@@ -261,8 +261,7 @@ li a {
 }
 
 .about-me-text {
-  background-image: url("images/top-tail.svg"), url("images/abtme.svg");
-  background-position: right top, left bottom;
+  background: url("images/top-tail.svg")right top/20% 35%, url("images/abtme.svg")left bottom;
   background-repeat: no-repeat, no-repeat;
   display: flex;
   flex-direction: column;
