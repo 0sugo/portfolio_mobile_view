@@ -642,9 +642,8 @@ form{
   height: 330px;
 }
 .form{
-  background-image: url(images/kando-left.svg),url(images/kando.svg),url(images/rock.svg);
-  background-position:left 99%,right 97%,16% 90%;
-  background-size: 8%;
+  background: url(images/kando-left.svg)left 99%/15%,url(images/kando.svg)right 85%/10%,url(images/rock.svg)20% 90%/10%;
+  background-repeat: no-repeat;
   display: grid;
   grid-template-columns:370px auto;
   align-items: center;
@@ -673,8 +672,6 @@ hr{
   width: 1440px;
   height: 1px;
   color: #DFE1E6;
-  bottom:100px;  
-
 }
 
 }
