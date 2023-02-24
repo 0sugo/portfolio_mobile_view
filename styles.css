@@ -227,9 +227,8 @@ li a {
 
 .works-button {
   padding: 12px;
-  width: 98px;
-  height: 24px;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
   background: #36b37f;
   border-radius: 4px;
   text-align: end;
@@ -318,12 +317,12 @@ li a {
   color: #fff;
 }
 
-/* .about-me-button:hover {
+.about-me-button:hover {
   box-shadow: 0 8px 16px #008552;
 }
 .about-me-button:active {
   background: #008552;
-}  */
+} 
 
 .about-me-card {
   padding: 1px;
@@ -653,6 +652,12 @@ hr {
     flex-direction: row;
     gap: 16px;
   }
+  .about-me-button:hover {
+    box-shadow: 0 8px 16px#36B37F;
+  }
+  .about-me-button:active {
+    background: #008552;
+  } 
 
   /* languages frameworks skills */
   .lang-card {
@@ -730,12 +735,5 @@ hr {
     height: 1px;
     color: #dfe1e6;
   }
-
-.about-me-button:hover {
-  box-shadow: 0 8px 16px #008552;
-}
-.about-me-button:active {
-  background: #008552;
-} 
 
 }
