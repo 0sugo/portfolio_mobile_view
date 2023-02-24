@@ -502,7 +502,7 @@ hr{
   background-repeat: no-repeat;
   background-size: 110%;
   background-position: top -60%;
-  height:100%;
+  height:110%;
   
 }
   /* nav-bar */
@@ -562,7 +562,7 @@ hr{
 
   }
   .recent-works{
-    margin-top: 5%;
+    margin-top: 3%;
   }
   .recent-works-cards{
    box-sizing: border-box;
@@ -639,18 +639,21 @@ font-size: 17px;
   height: auto;
 }
 /* form */
+form{
+  height: 330px;
+}
 .form{
   background-image: url(images/kando-left.svg),url(images/kando.svg),url(images/rock.svg);
   background-position:left 99%,right 97%,16% 90%;
-  background-size: 7%;
+  background-size: 8%;
   display: grid;
   grid-template-columns:370px auto;
   align-items: center;
-  height: 45%;
+  height: 80%;
   position: relative;
 }
 .form h2{
-  font-size: 20px;
+  font-size: 26px;
   text-align: start;
   align-items: center;
   line-height: 42px;
