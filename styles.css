@@ -175,7 +175,6 @@ li a {
   border-radius: 8px;
 }
 
-
 .work-details {
   display: grid;
   grid-template-rows: 33.33% 33.33% 33.33%;
@@ -237,11 +236,9 @@ li a {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   color: #fff;
-
 }
 
 .works-button:hover {
@@ -263,7 +260,7 @@ li a {
 
 .about-me-text {
   background:
-    url("images/top-tail.svg") right top/20% 35%,
+    url("images/top-tail.svg") right top/20%,
     url("images/abtme.svg") left bottom;
   background-repeat: no-repeat, no-repeat;
   display: flex;
@@ -320,9 +317,10 @@ li a {
 .about-me-button:hover {
   box-shadow: 0 8px 16px #008552;
 }
+
 .about-me-button:active {
   background: #008552;
-} 
+}
 
 .about-me-card {
   padding: 1px;
@@ -445,10 +443,12 @@ input {
   padding: 15px 16px;
   outline: none;
 }
+
 textarea,
 input:focus {
   border: 1px solid #60c095;
 }
+
 .form textarea {
   width: 100%;
   height: 114px;
@@ -507,9 +507,9 @@ hr {
   .start {
     background: url("images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 100%;
     background-position: top -60%;
-    height: 90%;
+    height: 150vh;
   }
 
   /* nav-bar */
@@ -542,22 +542,32 @@ hr {
   }
 
   .banner h1 {
-    font-size: 40px;
-    width: 690px;
-    margin-left: 5%;
+    font-size: 48px;
   }
 
   .banner p {
-    width: 570px;
-    margin-left: 13%;
-    padding-top: 2%;
+    padding-top: 6%;
+    width: 920px;
+    margin-left: 18%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    text-align: center;
   }
 
   /* social-media */
   .social-media ul {
-    position: absolute;
-    left: 50%;
-    right: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-top: -5%;
+  }
+
+  .social-media li {
+    color: #505f79;
+    font-size: 20px;
+    text-align: center;
   }
 
   /* indicator */
@@ -566,10 +576,6 @@ hr {
   }
 
   /* recent-works */
-  .topper {
-    position: relative;
-    margin-bottom: 0%;
-  }
 
   .recent-works {
     margin-top: 3%;
@@ -584,32 +590,33 @@ hr {
   }
 
   .works {
-    border:1px solid  #d0d9d4;
+    border: 1px solid #d0d9d4;
   }
-  .work1:hover{
-    border:1px solid  #60c095;
-    
-  } 
-  .work2:hover{
-    border:1px solid  #60c095;
-    
-  } 
-  .work3:hover{
-    border:1px solid  #60c095;
-    
-  } 
-  .work4:hover{
-    border:1px solid  #60c095;
-    
-  } 
-  .work5:hover{
-    border:1px solid  #60c095;
-    
-  } 
-  .work6:hover{
-    border:1px solid  #60c095;
-    
-  } 
+
+  .work1:hover {
+    border: 1px solid #60c095;
+  }
+
+  .work2:hover {
+    border: 1px solid #60c095;
+  }
+
+  .work3:hover {
+    border: 1px solid #60c095;
+  }
+
+  .work4:hover {
+    border: 1px solid #60c095;
+  }
+
+  .work5:hover {
+    border: 1px solid #60c095;
+  }
+
+  .work6:hover {
+    border: 1px solid #60c095;
+  }
+
   .language-tags {
     display: flex;
     flex: 1;
@@ -617,9 +624,9 @@ hr {
 
   .language-tags li {
     font-weight: 600;
-    font-size: 10px;
+    font-size: 12px;
     color: #3a4a42;
-    padding: 1px 3px;
+    padding: 8px 12px;
     background: #ebf0ee;
     border-radius: 4px;
   }
@@ -631,94 +638,104 @@ hr {
 
   /* about-me */
   .about-me-text {
-    background-image: url("images/top-tail.svg"), url("images/abtme.svg");
-    background-size: 80px;
-    background-position: right 50%, left 70%;
+    background:
+      url("images/top-tail.svg") 95%,
+      url("images/tail2.svg") left 110%;
+    background-repeat: no-repeat;
     align-items: center;
-    height: 300px;
+    height: 368px;
     width: 100%;
   }
 
   #about-me-para {
-    width: 550px;
-    font-size: 17px;
+    width: 947px;
+    font-weight: 400;
+    font-size: 20px;
   }
 
   .about-me-card {
     box-sizing: border-box;
-    padding: 1px;
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
+    padding: 4px 8px;
+    height: 352px;
+    width: 1171px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
   }
+
   .about-me-button:hover {
-    box-shadow: 0 8px 16px#36B37F;
+    box-shadow: 0 8px 16px #36b37f;
   }
+
   .about-me-button:active {
     background: #008552;
-  } 
+  }
 
   /* languages frameworks skills */
   .lang-card {
-    width: 33%;
+    width: 369px;
     height: auto;
-    border-radius:8px;
+    border-radius: 8px;
     border: 1px solid #d0d9d4;
   }
-  .lang-card:hover{
+
+  .lang-card:hover {
     border: 1px solid #60c095;
   }
 
   .framework-card {
-    width: 33%;
+    width: 369px;
     height: auto;
-    border-radius:8px;
+    border-radius: 8px;
     border: 1px solid #d0d9d4;
   }
-  .framework-card:hover{
+
+  .framework-card:hover {
     border: 1px solid #60c095;
   }
 
   .skills-card {
-    width: 33%;
+    width: 369px;
     height: auto;
-    border-radius:8px;
+    border-radius: 8px;
     border: 1px solid #d0d9d4;
   }
-  .skills-card:hover{
+
+  .skills-card:hover {
     border: 1px solid #60c095;
   }
 
   /* form */
   form {
-    height: 330px;
+    height: 350px;
+    width: 100%;
   }
 
   .form {
+    height: 490px;
+    width: auto;
     background:
-      url(images/kando-left.svg) left 99%/15%,
-      url(images/kando.svg) right 87%/10%,
-      url(images/rock.svg) 20% 90%/10%;
+      url(images/kando-left.svg) left 100%/8%,
+      url(images/kando.svg) 100% 87%/10%,
+      url(images/rock.svg) 20% 90%/8%;
     background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: 370px auto;
+    display: flex;
     align-items: center;
-    height: 80%;
-    position: relative;
+    padding: 80px 0;
   }
 
   .form h2 {
-    font-size: 26px;
-    text-align: start;
+    width: 463px;
+    flex: 0 0 585px;
     align-items: center;
-    line-height: 42px;
-    margin-top: -30px;
+    text-align: start;
+    line-height: 52px;
+    font-size: 30px;
+    margin-left: 80px;
   }
 
   .form-inputs {
-    display: flex;
-    flex-direction: column;
+    width: 684px;
   }
 
   .form-inputs li {
@@ -735,5 +752,4 @@ hr {
     height: 1px;
     color: #dfe1e6;
   }
-
 }
