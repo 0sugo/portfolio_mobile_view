@@ -19,7 +19,7 @@ li {
   list-style-type: none;
 }
 
-.navigation{
+.navigation {
   display: none;
 }
 
@@ -261,7 +261,9 @@ li a {
 }
 
 .about-me-text {
-  background: url("images/top-tail.svg")right top/20% 35%, url("images/abtme.svg")left bottom;
+  background:
+    url("images/top-tail.svg") right top/20% 35%,
+    url("images/abtme.svg") left bottom;
   background-repeat: no-repeat, no-repeat;
   display: flex;
   flex-direction: column;
@@ -434,7 +436,7 @@ input {
   border: 1px solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -449,7 +451,7 @@ input {
   border: 1px solid #60c095;
   box-sizing: border-box;
   border-radius: 4px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -463,7 +465,7 @@ input {
   border-radius: 4px;
   text-align: center;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -483,7 +485,7 @@ input {
 footer h4 {
   height: 189px;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -491,187 +493,201 @@ footer h4 {
   color: #42526e;
   margin-bottom: 147px;
 }
-hr{
+
+hr {
   display: none;
 }
-@media screen and (min-width:768px){
 
+@media screen and (min-width: 768px) {
   .start {
-  background: url("images/Header-llustration-desktop.svg");
-  background-repeat: no-repeat;
-  background-size: 110%;
-  background-position: top -60%;
-  height:110%;
-  
-}
+    background: url("images/Header-llustration-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: top -60%;
+    height: 110%;
+  }
+
   /* nav-bar */
-  .menu{
+  .menu {
     display: none;
   }
-  .navigation{
+
+  .navigation {
     display: inline;
     width: 100%;
     font-weight: 700;
-    color:#172B4D ;
-  
-
+    color: #172b4d;
   }
-  .desktop-nav{
+
+  .desktop-nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    
   }
-  .desktop-nav li{
-    margin: 10px;
 
+  .desktop-nav li {
+    margin: 10px;
   }
+
   /* banner */
-  .banner{
+  .banner {
     margin-top: 8%;
     margin-bottom: 0%;
-
   }
-  .banner h1{
+
+  .banner h1 {
     font-size: 40px;
     width: 690px;
     margin-left: 5%;
   }
-  .banner p{
+
+  .banner p {
     width: 570px;
     margin-left: 13%;
     padding-top: 2%;
   }
+
   /* social-media */
-  .social-media ul{
+  .social-media ul {
     position: absolute;
     left: 50%;
     right: 50%;
   }
 
   /* indicator */
-.indicator{
-  display: none;
-}
+  .indicator {
+    display: none;
+  }
+
   /* recent-works */
-  .topper{
+  .topper {
     position: relative;
     margin-bottom: 0%;
-
   }
-  .recent-works{
+
+  .recent-works {
     margin-top: 3%;
   }
-  .recent-works-cards{
-   box-sizing: border-box;
-   display: flex;
-   flex-direction: row;
-   gap:24px;
-   flex-wrap: wrap;
-   justify-content: center;
-   margin: 0px;
-   height:988px;
-   width: auto;
-   
-}
-.works{
-  width: 30.33%;
-}
 
-.language-tags{
-  display: flex;
-  flex:1;
-  
-}
+  .recent-works-cards {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    height: 988px;
+    width: auto;
+  }
 
-.language-tags li{
-  font-weight: 600;
-  font-size: 10px;
-  color: #3a4a42;
-  padding: 1px 3px;
-  background: #ebf0ee;
-  border-radius: 4px;
+  .works {
+    width: 30.33%;
+  }
 
-}
-.work-details h3{
-padding-top: 20px;
-font-size: 22px;
-}
+  .language-tags {
+    display: flex;
+    flex: 1;
+  }
 
-/* about-me */
-.about-me-text {
-  background-image: url("images/top-tail.svg"), url("images/abtme.svg");
-  background-size: 80px;
-  background-position: right 50%, left 70%;
-  align-items: center;
-  height: 300px;
-  width: 100%;
+  .language-tags li {
+    font-weight: 600;
+    font-size: 10px;
+    color: #3a4a42;
+    padding: 1px 3px;
+    background: #ebf0ee;
+    border-radius: 4px;
+  }
 
-}
-#about-me-para {
-width: 550px;
-font-size: 17px;
+  .work-details h3 {
+    padding-top: 20px;
+    font-size: 22px;
+  }
 
-}
+  /* about-me */
+  .about-me-text {
+    background-image: url("images/top-tail.svg"), url("images/abtme.svg");
+    background-size: 80px;
+    background-position: right 50%, left 70%;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+  }
 
-.about-me-card {
-  box-sizing: border-box;
-  padding: 1px;
-  height: 400px;
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-}
-/* languages frameworks skills */
-.lang-card{
-  width: 33%;
-  height: auto;
-  
-}
-.framework-card{
-  width: 33%;
-  height: auto;
-}
-.skills-card{
-  width: 33%;
-  height: auto;
-}
-/* form */
-form{
-  height: 330px;
-}
-.form{
-  background: url(images/kando-left.svg)left 99%/15%,url(images/kando.svg)right 85%/10%,url(images/rock.svg)20% 90%/10%;
-  background-repeat: no-repeat;
-  display: grid;
-  grid-template-columns:370px auto;
-  align-items: center;
-  height: 80%;
-  position: relative;
-}
-.form h2{
-  font-size: 26px;
-  text-align: start;
-  align-items: center;
-  line-height: 42px;
-  margin-top:-30px ;
-}
-.form-inputs{
-  display: flex;
-  flex-direction: column;
-}
-.form-inputs li{
-  justify-content: start;
-}
-#email_footer{
-  display: none;
-}
-hr{
-  display: block;
-  width: 1440px;
-  height: 1px;
-  color: #DFE1E6;
-}
+  #about-me-para {
+    width: 550px;
+    font-size: 17px;
+  }
 
+  .about-me-card {
+    box-sizing: border-box;
+    padding: 1px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  /* languages frameworks skills */
+  .lang-card {
+    width: 33%;
+    height: auto;
+  }
+
+  .framework-card {
+    width: 33%;
+    height: auto;
+  }
+
+  .skills-card {
+    width: 33%;
+    height: auto;
+  }
+
+  /* form */
+  form {
+    height: 330px;
+  }
+
+  .form {
+    background:
+      url(images/kando-left.svg) left 99%/15%,
+      url(images/kando.svg) right 85%/10%,
+      url(images/rock.svg) 20% 90%/10%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 370px auto;
+    align-items: center;
+    height: 80%;
+    position: relative;
+  }
+
+  .form h2 {
+    font-size: 26px;
+    text-align: start;
+    align-items: center;
+    line-height: 42px;
+    margin-top: -30px;
+  }
+
+  .form-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-inputs li {
+    justify-content: start;
+  }
+
+  #email_footer {
+    display: none;
+  }
+
+  hr {
+    display: block;
+    width: 1440px;
+    height: 1px;
+    color: #dfe1e6;
+  }
 }
