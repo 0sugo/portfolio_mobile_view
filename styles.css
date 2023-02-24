@@ -577,24 +577,40 @@ hr {
   }
 
   .recent-works-cards {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
     gap: 24px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-    height: 988px;
-    width: auto;
+    height: 900px;
   }
 
   .works {
-    width: 30.33%;
+    border:1px solid  #d0d9d4;
   }
+  .work1:hover{
+    border:1px solid  #60c095;
+    
+  } 
+  .work2:hover{
+    border:1px solid  #60c095;
+    
+  } 
+  .work3:hover{
+    border:1px solid  #60c095;
+    
+  } 
+  .work4:hover{
+    border:1px solid  #60c095;
+    
+  } 
   .work5:hover{
-    background: red;
-  }
-
+    border:1px solid  #60c095;
+    
+  } 
+  .work6:hover{
+    border:1px solid  #60c095;
+    
+  } 
   .language-tags {
     display: flex;
     flex: 1;
@@ -646,8 +662,7 @@ hr {
     border: 1px solid #d0d9d4;
   }
   .lang-card:hover{
-    border: 9px solid red;
-    /* #60c095 */
+    border: 1px solid #60c095;
   }
 
   .framework-card {
@@ -656,12 +671,18 @@ hr {
     border-radius:8px;
     border: 1px solid #d0d9d4;
   }
+  .framework-card:hover{
+    border: 1px solid #60c095;
+  }
 
   .skills-card {
     width: 33%;
     height: auto;
     border-radius:8px;
     border: 1px solid #d0d9d4;
+  }
+  .skills-card:hover{
+    border: 1px solid #60c095;
   }
 
   /* form */
