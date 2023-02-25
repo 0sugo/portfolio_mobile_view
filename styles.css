@@ -5,15 +5,14 @@
   0% {
     transform: translate(0px, 300px);
   }
+  
   100% {
-    transform: translate(0px, 0px);
+    transform: translate(10px, 20px);
   }
 }
 
-.start {
-  animation-name: slide;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
+ {
+  
 }
 
 body {
@@ -24,6 +23,9 @@ body {
 }
 
 .start {
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
   background: url("images/main_back.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -276,7 +278,7 @@ li a {
 
 .about-me-text {
   background: url("images/top-tail.svg") right top/20%,
-    url("images/abtme.svg") left bottom;
+              url("images/abtme.svg") left bottom;
   background-repeat: no-repeat, no-repeat;
   display: flex;
   flex-direction: column;
@@ -654,7 +656,7 @@ hr {
   /* about-me */
   .about-me-text {
     background: url("images/top-tail.svg") 95%,
-      url("images/tail2.svg") left 110%;
+                url("images/tail2.svg") left 110%;
     background-repeat: no-repeat;
     align-items: center;
     height: 368px;
@@ -729,7 +731,8 @@ hr {
     height: 490px;
     width: auto;
     background: url(images/kando-left.svg) left 100%/8%,
-      url(images/kando.svg) 100% 87%/10%, url(images/rock.svg) 20% 90%/8%;
+                url(images/kando.svg) 100% 87%/10%,
+                url(images/rock.svg) 20% 90%/8%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
