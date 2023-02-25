@@ -1,5 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
+/* body animation */
+@-webkit-keyframes slide {
+  0%   { transform: translate(0px,100px); }
+  100% { transform: translate(0px,0px); }
+}
+@-moz-keyframes slide {
+  0%   { transform: translate(0px,300px); }
+  100% { transform: translate(0px,0px); }
+}
+@-o-keyframes slide {
+  0%   { transform: translate(0px,300px); }
+  100% { transform: translate(0px,0px); }
+}
+@keyframes slide {
+  0%   { transform: translate(0px,300px); }
+  100% { transform: translate(0px,0px); }
+}
+
+.start{
+ animation-name: slide;
+ animation-duration: 3s; 
+ animation-fill-mode: forwards; 
+}
+
 body {
   width: auto;
   margin: 0;
