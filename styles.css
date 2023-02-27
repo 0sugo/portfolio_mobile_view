@@ -7,12 +7,28 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+#me {
+  transition-timing-function: ease;
+}
+
+#me:hover {
+  font-size: 30px;
+  transition: background-color 1s ease-in-out;
+  background-color: #172b4d;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 5px;
+}
+
 .start {
   background: url("images/main_back.png");
   background-repeat: no-repeat;
   background-size: 100%;
   padding-left: 24px;
   padding-right: 24px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
 li {
