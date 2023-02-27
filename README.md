@@ -4,8 +4,6 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -30,18 +28,6 @@ https://0sugo.github.io/portfolio_mobile_view/
 ## 🛠 Built With <a name="built-with"></a>
 - HTML.
 - CSS.
-### Key Features <a name="key-features"></a>
-
-- **[mobile version]**
-- **[Desktop version]**
-- **[Collects data with formspree]**
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
-- 
 
 <!-- GETTING STARTED -->
 
