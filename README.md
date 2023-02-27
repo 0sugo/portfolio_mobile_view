@@ -4,6 +4,8 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -21,13 +23,25 @@
 
 # 📖 [portfolio_mobile_view] <a name="about-project"></a>
 
+https://0sugo.github.io/portfolio_mobile_view/
 
-
-**[Portfolio_mobile_view]** This is a simple project that shows information about me  and what I do.It also contains some of the jobs Have done together with the technology stack I used.
+**[Portfolio_mobile_view]** This is a simple project that shows information about me  and what I do.It also contains some of the jobs Have done together with the technology stack I used.It also has a contact me form just incase you wanna say hi or contribute to my job.
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML.
 - CSS.
+### Key Features <a name="key-features"></a>
+
+- **[mobile version]**
+- **[Desktop version]**
+- **[Collects data with formspree]**
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://0sugo.github.io/portfolio_mobile_view/)
+- 
 
 <!-- GETTING STARTED -->
 
