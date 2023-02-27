@@ -554,17 +554,21 @@ hr {
 
   @keyframes gradient {
     0% {
-      color: #000000;
+      color: #000;
     }
+
     25% {
       color: #008552;
     }
+
     50% {
       color: #f7f7f7;
     }
+
     75% {
       color: #172b4d;
     }
+
     100% {
       color: #008552;
     }
