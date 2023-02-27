@@ -549,7 +549,27 @@ hr {
 
   .desktop-nav li {
     margin: 10px;
+    animation: gradient 10s ease-in-out infinite alternate;
   }
+
+  @keyframes gradient {
+    0% {
+      color: #000000;
+    }
+    25% {
+      color: #008552;
+    }
+    50% {
+      color: #f7f7f7;
+    }
+    75% {
+      color: #172b4d;
+    }
+    100% {
+      color: #008552;
+    }
+  }
+
 
   /* banner */
   .banner {
