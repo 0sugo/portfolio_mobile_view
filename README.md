@@ -40,7 +40,7 @@ https://0sugo.github.io/portfolio_mobile_view/
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://0sugo.github.io/portfolio_mobile_view/)
+- [Live Demo Link]()
 - 
 
 <!-- GETTING STARTED -->
