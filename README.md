@@ -77,7 +77,7 @@ Run it in your local server.
 - Twitter: [@0sugo5](https://twitter.com/osugo5)
 - LinkedIn: [Joseck Osugo](https://www.linkedin.com/in/joseck-osugo-873b0618a/)
 
- **NALEDI DIKGALE**
+👤**NALEDI DIKGALE**
 
 - GitHub: [Naledi dikgale](https://github.com/Naledi-Dikgale)
 - LinkedIn: [Naledi Dikgale](https://www.linkedin.com/in/naledi-dikgale-068423159/)
