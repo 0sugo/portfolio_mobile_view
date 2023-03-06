@@ -534,8 +534,7 @@ hr {
   }
 
   .navigation {
-    display: inline;
-    width: 100%;
+    display: block;
     font-weight: 700;
     color: #172b4d;
   }
@@ -586,7 +585,7 @@ hr {
 
   .banner p {
     padding-top: 6%;
-    width: 920px;
+    width: 60%;
     margin-left: 18%;
     font-size: 20px;
     font-weight: 400;
@@ -625,7 +624,7 @@ hr {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap: 24px;
-    height: 900px;
+    height: 90%;
   }
 
   .works {
