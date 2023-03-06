@@ -52,6 +52,11 @@ li {
   padding-bottom: 15%;
 }
 
+.menu-list{
+  display: none;
+
+}
+
 li a {
   color: inherit;
   text-decoration: none;
