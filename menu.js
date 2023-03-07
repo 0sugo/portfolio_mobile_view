@@ -1,21 +1,18 @@
-// var menu_toggle= document.getElementById("overlay");
-
-// var cancel_toggle= document.getElementById("cancel");
-
-// function toggler (){
-// if(menu_toggle.style.display==="block" && cancel_toggle.style.display ==="block"){
-//     menu_toggle.style.display="none";
-//     cancel_toggle.style.display="none";
-// }else{
-//     menu_toggle.style.display="block";
-//     cancel_toggle.style.display="block";
-// }
-
-// }
 
 const hamburger = document.querySelector(".ham");  
-const navsub = document.querySelector(".nav-sub");  
+const navsub = document.querySelector(".nav-sub");
+const remover = document.querySelector(".nav-link");
+
 hamburger.addEventListener('click', () => {  
- hamburger.classList.toggle("change")  
- navsub.classList.toggle("nav-change")  
+hamburger.classList.toggle("change")  
+navsub.classList.toggle("nav-change")  
 });  
+
+remover.addEventListener('click', function(){
+
+hamburger.classList.remove("change") 
+navsub.classList.remove("nav-change") 
+
+});
+
+
