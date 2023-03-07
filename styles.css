@@ -5,6 +5,9 @@ body {
   margin: 0;
   height: 100vh;
   font-family: "Inter", sans-serif;
+  background: url("images/main_back.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #me {
@@ -21,9 +24,6 @@ body {
 }
 
 .start {
-  background: url("images/main_back.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
   padding-left: 24px;
   padding-right: 24px;
   animation-name: slide;
@@ -51,9 +51,43 @@ li {
   padding-top: 10%;
   padding-bottom: 15%;
 }
-
-#menu-list {
+#overlay{
   display: none;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-top: 5%;
+  height:68%;
+  position: absolute;
+  width:100%;
+  background: #fff;
+  border-radius:0 0 20px 20px ;
+  top:0;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+
+}
+#menu-list {
+  border: 1px solid black;
+  color: #3A4A42;
+  width: 100%;
+  margin-left: 3%;
+  margin-top: 5%;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  height: 184px;
+
+
+}
+
+#options li{
+ margin: 2% 0 2% 0;
+}
+
+#cancel{
+  /* display: block; */
+  margin-right: 10%;
 }
 
 li a {
