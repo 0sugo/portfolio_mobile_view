@@ -8,7 +8,7 @@ hamburger.classList.toggle("change")
 navsub.classList.toggle("nav-change")  
 });  
 
-remover.addEventListener('click', function(){
+remover.addEventListener('click', function() {
 
 hamburger.classList.remove("change") 
 navsub.classList.remove("nav-change") 
