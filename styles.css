@@ -64,7 +64,7 @@ li {
 .navbar {
   display: flex;
   top: 0;
-  height: 10vh;
+  height: 15vh;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
@@ -73,6 +73,7 @@ li {
 .list-item {
   padding: 10px;
   list-style: none;
+  margin: 0 20px;
 }
 
 .nav-link {
