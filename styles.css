@@ -54,7 +54,10 @@ li {
 }
 
 .title{  
-  cursor:pointer;  
+  cursor:pointer;
+  color:#28352F;
+  font-weight: 600;
+
  }  
 
  /*Properties for Nav-bar*/  
@@ -86,9 +89,10 @@ li {
   z-index: 2;
   right:8%;
  }  
+ 
  .bar1,.bar2,.bar3{  
   display:block;  
-  width:35px;  
+  width:25px;  
   height:3px;  
   margin:5px auto;  
   background-color:#101010;  
@@ -100,13 +104,14 @@ li {
   right:0px;  
   flex-direction:column;
   flex:0;  
-  background-color:white;  
+  background-color:white;
+  color:#3A4A42;  
   border-radius:0px 0px 30px 30px;
   box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);  
   transition:transform 0.3s ease-in;  
   transform:translate(100%);
   top:0;
-  height: 70%; 
+  height: 91vh; 
   font-size: 32px;
   font-weight: 600;
   line-height:44px;
@@ -117,15 +122,20 @@ li {
  }  
 .ham{  
   display:block;  
+  background-color: white;
  }  
 .change .bar1 {  
- transform: rotate(45deg) translate(8px,3px);  
+ transform: rotate(45deg) translate(8px,3px); 
+  background-color:#67798E ; 
+ 
 }  
 .change .bar2 {  
  opacity: 0;  
 }  
 .change .bar3 {  
- transform: rotate(-45deg) translate(8px,-3px);  
+ transform: rotate(-45deg) translate(8px,-3px); 
+ background-color:#67798E ; 
+
 }  
 
 
@@ -584,10 +594,13 @@ hr {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top -60%;
-    height: 150vh;
+    height: 100vh;
   }
 
   /* nav-bar */
+  .navbar{
+    display: none;
+  }
   .menu {
     display: none;
   }
