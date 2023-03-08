@@ -50,4 +50,22 @@ const cards = [
 
 ];
 
+const  recentWorks = document.querySelector (".recent-works");
+
+const topper =document.createElement('div');
+topper.classList.add('topper');
+recentWorks.appendChild(topper);
+
+const section_head = document.createElement('h2');
+section_head.innerHTML = 'My Recent Works';
+recentWorks.appendChild(section_head);
+
+const indicator = document.createElement('div');
+indicator.classList.add('indicator');
+recentWorks.appendChild(indicator);
+
+const recentWorkCards =document.createElement('div');
+recentWorkCards.classList.add('recent-works-cards');
+recentWorks.appendChild(recentWorkCards);
+
 
