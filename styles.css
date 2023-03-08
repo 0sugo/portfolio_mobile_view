@@ -6,6 +6,7 @@ body {
   height: 100vh;
   font-family: "Inter", sans-serif;
   transform: translate(0%);
+  overflow-x: hidden;
 }
 
 #me {
