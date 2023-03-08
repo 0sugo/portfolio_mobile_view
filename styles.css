@@ -6,7 +6,6 @@ body {
   height: 100vh;
   font-family: "Inter", sans-serif;
   transform: translate(0%);
-  overflow-x: hidden;
 }
 
 #me {
@@ -303,7 +302,7 @@ li {
   padding: 0;
 }
 
-.language-tags li {
+.skills_li{
   list-style: none;
   font-family: "Inter", sans-serif;
   font-style: normal;
