@@ -15,3 +15,39 @@ navsub.classList.remove("nav-change")
 
 });
 
+// cards region
+const cards = [
+    {
+        name: "Multi-Post Stories Gain+Glory",
+        tech: ["html", "javascript", "css"],
+        button :"See project",
+      },
+      {
+        name: "Multi-Post Stories Gain+Glory",
+        tech: ["html", "javascript", "css"],
+        button :"See project",
+      },
+      {
+        name: "Multi-Post Stories Gain+Glory",
+        tech: ["html", "javascript", "css"],
+        button :"See project",
+      },
+      {
+        name: "Multi-Post Stories Gain+Glory",
+        tech: ["html", "javascript", "css"],
+        button :"See project",
+      },
+      {
+        name: "Multi-Post Stories Gain+Glory",
+        tech: ["html", "javascript", "css"],
+        button :"See project",
+      },
+      {
+        name: "Multi-Post Stories Gain+Glory",
+        tech: ["html", "javascript", "css"],
+        button :"See project",
+      },
+
+];
+
+
