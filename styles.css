@@ -5,6 +5,8 @@ body {
   margin: 0;
   height: 100vh;
   font-family: "Inter", sans-serif;
+  transform: translate(0%);
+  overflow-x: hidden;
 }
 
 #me {
@@ -24,6 +26,7 @@ body {
   background: url("images/main_back.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: 100%;
   padding-left: 24px;
   padding-right: 24px;
   animation-name: slide;
@@ -52,25 +55,99 @@ li {
   padding-bottom: 15%;
 }
 
-li a {
-  color: inherit;
-  text-decoration: none;
+.title {
+  cursor: pointer;
+  color: #28352f;
+  font-weight: 600;
 }
 
-.toolbar {
+/* Properties for Nav-bar */
+.navbar {
   display: flex;
+  top: 0;
+  height: 15vh;
   justify-content: space-between;
-  flex: 1;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.toolbar a {
-  text-decoration: none;
+.list-item {
+  padding: 10px;
+  list-style: none;
+  margin: 0 20px;
+}
+
+.nav-link {
   color: inherit;
+  text-decoration: none;
 }
 
-#menu-icon {
-  font-size: 20px;
-  padding-right: 30px;
+/* Properties for Hamburger */
+.ham {
+  /* display:none;   */
+  padding: 5px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  right: 8%;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #101010;
+  transition: 0.4s;
+}
+
+.nav-sub {
+  position: absolute;
+  right: 0;
+  flex-direction: column;
+  flex: 0;
+  background-color: #fff;
+  color: #3a4a42;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  transition: transform 0.3s ease-in;
+  transform: translate(100%);
+  top: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  padding: 20% 0 0 10%;
+}
+
+.nav-change {
+  transform: translate(0%);
+}
+
+.nav-finish {
+  background-color: #fff;
+  color: #3a4a42;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  transition: transform 0.3s ease-in;
+  transform: translate(100%);
+}
+
+.change .bar1 {
+  transform: rotate(45deg) translate(8px, 3px);
+  background-color: #67798e;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(-45deg) translate(8px, -3px);
+  background-color: #67798e;
 }
 
 #logo {
@@ -520,15 +597,23 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    background: none;
+  }
+
   .start {
     background: url("images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top -60%;
-    height: 150vh;
+    height: 100vh;
   }
 
   /* nav-bar */
+  .navbar {
+    display: none;
+  }
+
   .menu {
     display: none;
   }

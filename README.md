@@ -96,6 +96,11 @@ Run it in your local server.
 - GitHub: [Naledi dikgale](https://github.com/Naledi-Dikgale)
 - LinkedIn: [Naledi Dikgale](https://www.linkedin.com/in/naledi-dikgale-068423159/)
 
+👤**HARRIET OTENG**
+- GitHub: [@githubhandle](https://github.com/newhoteng)
+- Twitter: [@twitterhandle](https://twitter.com/HarrietOteng1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/harriet-oteng-75554666/)
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
