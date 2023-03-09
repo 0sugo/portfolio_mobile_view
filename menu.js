@@ -226,12 +226,62 @@ const projects = [
 // seeSection2.append(seeimage2);
 // seeSection.append(seeSection2);
 
+// pop-up window
+const body = document.querySelector('body');
+const overlay = document.createElement('div');
+body.append('overlay');
+
+projects.forEach(project => {
+const pops = `
+<div class="popup">
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <div class="pop-image"></div>
+
+                    <div class="contented">
+                    <h2 id="item-1">${project.name}</h2>
+                    <ul class="language-tag" id="item-2">
+                        <li>Ruby on Rails</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                    </ul>
+                    <p id="item-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+
+                   
+
+                    <div class="see-section" id="item-4">
+                        <div class="see-section-1">
+                            <a href="">See Live</a>
+                            <img src="images/see live icon.svg" alt="">
+                        </div>
+    
+                        <div class="see-section-2"><a href="">See Source</a><img src="images/Icon -GitHub.svg" alt=""></div>
+                        
+                    </div>
+                    </div>
+                    
+
+                </div>
+                
+
+            </div>
+            `;
 
 
 
 
 
 
-// const textNode = document.createTextNode('This is generated dynamically');
-// recentWorks.append(textNode);
+
+
+
+
+});
+
+
+
+
+const textNode = document.createTextNode('This is generated dynamically');
+recentWorks.append(textNode);
 }

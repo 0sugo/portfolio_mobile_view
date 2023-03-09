@@ -116,13 +116,13 @@ li {
   left: 0;
   flex-direction: column;
   flex: 0;
+  top: 0;
   background-color: #fff;
   color: #3a4a42;
   border-radius: 0 0 30px 30px;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   transition: transform 0.3s ease-in;
   transform: translate(100%);
-  top: 0;
   height: 100%;
   width: 90%;
   font-size: 32px;
@@ -131,7 +131,6 @@ li {
   padding: 20% 0 0 10%;
   display: none;
 
-  
 }
 
 .nav-change {
@@ -367,7 +366,7 @@ li {
   height:100vh;
   transition: opacity 1s;
   visibility: hidden;
-  z-index: 10;
+  z-index: 2;
   
 }
 .overlay:target {
@@ -381,8 +380,9 @@ li {
   background: #ffffff;
   border-radius: 16px;
   width: 343px;
-  height: 766px;
+  height: 810px;
   position: absolute;
+  z-index: 10;
   top:0;
   z-index: 10;
   left: calc(46% - 343px/2);
@@ -587,6 +587,7 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
+  gap: 12px;
   grid-template-rows: auto auto;
   align-content: space-evenly;
 }
@@ -937,21 +938,23 @@ hr {
   }
   
   .popup {
+    left:0;
+    right: 0;
     margin: 10px auto;
     padding: 16px;
     background: #ffffff;
     border-radius: 16px;
-    width: 920Px;
-    height: 1083px;
+    width: 80%;
+    height: 80%;
     position: absolute;
     top:0;
     z-index: 10;
-    /* left: calc(46% - 343px/2); */
     border: 1px solid #DFE1E6;
   }
   
   .pop-image{
       height: 616px;
+      margin-top: 10;
       background: url('images/SnapshootD\ Portfolio.png');
       background-repeat:no-repeat ;
       background-size: cover;
@@ -962,12 +965,17 @@ hr {
   .contented{
       display: grid;
       justify-content: start;
+      align-items: start;
+      margin-top: 24px;
   }
   #item-1{
     grid-column: 1 / span 3;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
   }
   #item-2{
-    grid-column: 1/ span 23;
+    grid-column: 1/ span 6;
     grid-row: 2;
     display: flex;
     justify-content:start;
@@ -980,24 +988,43 @@ hr {
     font-weight: 600;
     font-size: 12px;
     color: #3a4a42;
-    padding: 8px 12px;
+    padding: 8px 29px;
     background: #ebf0ee;
     border-radius: 4px;
     
 
   }
   #item-3{
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 4;
     grid-row: 3;
     width: 869px;
+    width: auto;
+    font-size: 16px;
+    color:#344563;
+    line-height: 30px;
   }
+    .see-section{
+     justify-content: end;
+  }
+
+
+  .popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #67798E;;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  overflow: auto;
+}
   
-  #item-4{
-
-  }
-
-
-
  
  
 
@@ -1075,12 +1102,12 @@ hr {
   form {
     height: 350px;
     width: 100%;
-    border: 1px solid red;
   }
 
   .form {
     height: 490px;
-    width: auto;
+    width: 80%;
+    margin-left: 10%;
     background:
       url(images/kando-left.svg) left 100%/8%,
       url(images/kando.svg) 100% 87%/10%,
@@ -1088,7 +1115,7 @@ hr {
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    padding: 80px 0;
+    /* padding: 0px 0; */
   }
 
   .form h2 {
@@ -1098,11 +1125,11 @@ hr {
     text-align: start;
     line-height: 52px;
     font-size: 30px;
-    margin-left: 80px;
+    margin-left: 20px;
   }
 
   .form-inputs {
-    width: 684px;
+    width: 69%;
   }
 
   .form-inputs li {
