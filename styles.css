@@ -931,12 +931,8 @@ hr {
     height:auto;
     /* margin: 90% auto; */
     transition: opacity 1s;
-    visibility: hidden;
+    /* visibility: hidden; */
     
-  }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
   }
   
   .popup {

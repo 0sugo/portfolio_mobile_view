@@ -20,33 +20,41 @@ window.onload = function loader() {
       name: "Multi-Post Stories Gain+Glory",
       tech: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
       index:"1",
+      id:"one",
     },
     {
       name: "Multi-Post Stories Gain+Glory",
       tech: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
       index:"2",
+      id:"two",
     },
     {
       name: "Multi-Post Stories Gain+Glory",
       tech: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
       index:"3",
+      id:"three",
     },
     {
       name: "Multi-Post Stories Gain+Glory",
       tech: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
       index:"4",
+      id:"four",
     },
     {
       name: "Multi-Post Stories Gain+Glory",
       tech: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
       index:"5",
+      id:"five",
     },
     {
       name: "Multi-Post Stories Gain+Glory",
       tech: ["Ruby on Rails", "CSS", "Javascript", "HTML"],
       index:"6",
+      id:"six",
     },
   ];
+
+  const but = ['button-1' , 'button-2' , 'button-3'];
 
   // Projects pop-up
 
@@ -59,7 +67,7 @@ window.onload = function loader() {
       technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
       live: "https://github.com/0sugo/portfolio_mobile_view",
       source: "https://0sugo.github.io/portfolio_mobile_view/",
-      index:"1",
+      index:"one",
     },
     {
       name: "Keeping track of hundreds of components",
@@ -69,7 +77,7 @@ window.onload = function loader() {
       technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
       live: "https://github.com/0sugo/portfolio_mobile_view",
       source: "https://0sugo.github.io/portfolio_mobile_view/",
-      index:"2",
+      index:"two",
     },
     {
       name: "Keeping track of hundreds of components",
@@ -78,17 +86,7 @@ window.onload = function loader() {
       technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
       live: "https://github.com/0sugo/portfolio_mobile_view",
       source: "https://0sugo.github.io/portfolio_mobile_view/",
-      index:"3",
-    },
-    {
-      name: "Keeping track of hundreds of components",
-      image: "images/Snapshoot-Portfolio.svg",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-      live: "https://github.com/0sugo/portfolio_mobile_view",
-      source: "https://0sugo.github.io/portfolio_mobile_view/",
-      index:"4",
+      index:"three",
     },
     {
       name: "Keeping track of hundreds of components",
@@ -98,7 +96,17 @@ window.onload = function loader() {
       technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
       live: "https://github.com/0sugo/portfolio_mobile_view",
       source: "https://0sugo.github.io/portfolio_mobile_view/",
-      index:"5",
+      index:"four",
+    },
+    {
+      name: "Keeping track of hundreds of components",
+      image: "images/Snapshoot-Portfolio.svg",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
+      live: "https://github.com/0sugo/portfolio_mobile_view",
+      source: "https://0sugo.github.io/portfolio_mobile_view/",
+      index:"five",
     },
     {
       name: "Keeping track of hundreds of components",
@@ -108,11 +116,13 @@ window.onload = function loader() {
       technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
       live: "https://github.com/0sugo/portfolio_mobile_view",
       source: "hhttps://0sugo.github.io/portfolio_mobile_view/",
-      index:"6",
+      index:"six",
     },
   ];
 
   const recentWorks = document.querySelector(".recent-works");
+//   let card_id= `${card.id}`;
+
 
   const topper = document.createElement("div");
   topper.classList.add("topper");
@@ -154,11 +164,15 @@ window.onload = function loader() {
     }
 
     const see = document.createElement("a");
-    see.innerHTML = "See Project";
+    see.innerHTML = `Button ${card.index}`;
+    see.setAttribute('href', `#${card.id}`);
+    see.addEventListener("click",modal);
     see.classList.add("works-button");
-    see.href="popup1";
     workDetails.appendChild(see);
+    
+
   });
+
 
   // pop-up window
 
@@ -227,10 +241,17 @@ window.onload = function loader() {
 
   const modal_pop = document.querySelector(".try");
 
+//   const specific;
+// for (let i = 0; i < cards.length; i++) {
+//     specific = card[i].id;
+    
+// }
+
+
   function modal() {
     let pops = '';
     projects.forEach((project) => {
-      pops += `<div id="popup1" class="overlay">
+      pops += `<div id="${project.index}" class="overlay">
 <div class="popup">
                 <a class="close" href="#">&times;</a>
                 <div class="content">
@@ -264,7 +285,7 @@ window.onload = function loader() {
     });
     modal_pop.innerHTML = pops;
   }
-   modal();
+//    modal();
 
   const textNode = document.createTextNode("This is generated dynamically");
   recentWorks.append(textNode);
