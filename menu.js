@@ -56,10 +56,9 @@ window.onload = function loader() {
     },
   ];
 
-  const but = ['button-1' , 'button-2' , 'button-3'];
 
   // Array of Projects pop-up
-  
+
   const projects = [
     {
       name: "Keeping track of hundreds of components",
@@ -165,7 +164,7 @@ window.onload = function loader() {
     }
 
     const see = document.createElement("a");
-    see.innerHTML = `Button ${card.index}`;
+    see.innerHTML = "see project";
     see.setAttribute('href', `#${card.id}`);
     see.addEventListener("click",modal);
     see.classList.add("works-button");

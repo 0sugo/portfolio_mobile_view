@@ -126,7 +126,7 @@ li {
   transition: transform 0.3s ease-in;
   transform: translate(100%);
   height: 100%;
-  width: 90%;
+  width: 100%;
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
@@ -208,6 +208,10 @@ li {
   font-size: 20px;
   text-align: center;
   padding-top: 6%;
+}
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  color: #505f79;
 }
 
 #chev {
