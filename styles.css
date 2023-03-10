@@ -397,7 +397,7 @@ li {
 
 .pop-image {
   height: 220px;
-  background: url('images/Snapshoot\ Portfolio.svg');
+  background: url("images/Snapshoot\ Portfolio.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 7.5px -10px;
@@ -405,7 +405,7 @@ li {
 }
 
 #item-2 {
-  grid-column: 1/ span 23;
+  grid-column: 1 / span 23;
   grid-row: 2;
   display: flex;
   justify-content: start;
@@ -486,8 +486,6 @@ li {
 .popup .content {
   overflow: auto;
 }
-
-
 
 /* about-me-section */
 
@@ -961,7 +959,7 @@ hr {
   .pop-image {
     height: 616px;
     margin-top: 10;
-    background: url('images/SnapshootD\ Portfolio.png');
+    background: url("images/SnapshootD\ Portfolio.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -982,7 +980,7 @@ hr {
   }
 
   #item-2 {
-    grid-column: 1/ span 6;
+    grid-column: 1 / span 6;
     grid-row: 2;
     display: flex;
     justify-content: start;
@@ -1023,10 +1021,6 @@ hr {
   .popup .content {
     overflow: auto;
   }
-
-
-
-
 
   /* about-me */
   .about-me-text {
