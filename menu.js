@@ -212,4 +212,13 @@ window.onload = function loader() {
     });
     modal_pop.innerHTML = pops;
   }
+  const email = document.getElementById('email');
+const form = document.getElementById('contact-form');
+const errorMsg = document.getElementById('form-error');
+
+form.addEventListener('submit',(event)=>{
+  if (email.value !== email.value.toLowerCase()) {
+    errorMsg.style.visibility = 'visible';
+    event.preventDefault();
+    
 };
