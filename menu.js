@@ -166,7 +166,7 @@ window.onload = function loader() {
 
     const see = document.createElement("a");
     see.innerHTML = "see project";
-    see.setAttribute('href', `${card.id}`);
+    see.setAttribute('href', `#${card.id}`);
     see.addEventListener("click",modal);
     see.classList.add("works-button");
     workDetails.appendChild(see);
