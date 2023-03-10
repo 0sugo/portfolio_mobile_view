@@ -130,6 +130,7 @@ window.onload = function loader() {
 
   const section_head = document.createElement("h2");
   section_head.innerHTML = "My Recent Works";
+  section_head.setAttribute('id', 'topper_head');
   recentWorks.appendChild(section_head);
 
   const indicator = document.createElement("div");
