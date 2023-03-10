@@ -363,10 +363,11 @@ li {
   left: 0;
   right: 0;
   background: #C1C7D0;
-  height:100vh;
+  height:100%;
   transition: opacity 1s;
   visibility: hidden;
   z-index: 2;
+  opacity:1%;
   
 }
 .overlay:target {
@@ -927,7 +928,8 @@ hr {
     left: 0;
     right: 0;
     background: #C1C7D0;
-    height:100vh;
+    height:auto;
+    /* margin: 90% auto; */
     transition: opacity 1s;
     visibility: hidden;
     
@@ -940,12 +942,12 @@ hr {
   .popup {
     left:0;
     right: 0;
-    margin: 10px auto;
+    /* margin: 10% auto; */
     padding: 16px;
     background: #ffffff;
     border-radius: 16px;
     width: 80%;
-    height: 80%;
+    height: fit-content;
     position: absolute;
     top:0;
     z-index: 10;
@@ -958,7 +960,6 @@ hr {
       background: url('images/SnapshootD\ Portfolio.png');
       background-repeat:no-repeat ;
       background-size: cover;
-      /* background-position:7.5px -10px; */
       border-radius: 8px;
   }
   
