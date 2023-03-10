@@ -209,8 +209,9 @@ li {
   text-align: center;
   padding-top: 6%;
 }
-.fa-brands, .fab {
-  font-family: "Font Awesome 6 Brands";
+
+.fa-brands,
+.fab {
   color: #505f79;
 }
 
@@ -856,19 +857,20 @@ hr {
   }
 
   /* recent-works */
-.topper{
-  display: flex;
- align-items: center;
- text-align: center;
-}
-#topper_head{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #172b4d;
-}
+  .topper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  #topper_head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
   .recent-works {
     margin-top: 3%;
   }
@@ -880,7 +882,7 @@ color: #172b4d;
     gap: 24px;
     height: 90%;
     width: 90%;
-    justify-content:unset;
+    justify-content: unset;
   }
 
   .works {
@@ -940,7 +942,6 @@ color: #172b4d;
     right: 0;
     background: #c1c7d0;
     height: 1990px;
-   
   }
 
   .popup {
@@ -989,8 +990,6 @@ color: #172b4d;
     gap: 12px;
     padding-left: 0;
   }
-
-
 
   #item-3 {
     grid-column: 1 / span 4;
@@ -1050,10 +1049,10 @@ color: #172b4d;
     box-sizing: border-box;
     padding: 4px 8px;
     height: 352px;
-    width: 1171px;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-direction: row;
     gap: 24px;
+    width: 100%;
   }
 
   .about-me-button:hover {
@@ -1065,12 +1064,7 @@ color: #172b4d;
   }
 
   /* languages frameworks skills */
-  .about-me-card{
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    width: 100%;
-  }
+
   .lang-card {
     width: 30%;
     height: auto;
@@ -1131,7 +1125,7 @@ color: #172b4d;
     text-align: start;
     line-height: 52px;
     font-size: 30px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .form-inputs {
