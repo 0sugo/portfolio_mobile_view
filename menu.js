@@ -14,7 +14,9 @@ remover.addEventListener("click", function () {
 
 
 window.onload = function loader() {
-  // cards region
+
+  // Array of cards region
+
   const cards = [
     {
       name: "Multi-Post Stories Gain+Glory",
@@ -56,8 +58,8 @@ window.onload = function loader() {
 
   const but = ['button-1' , 'button-2' , 'button-3'];
 
-  // Projects pop-up
-
+  // Array of Projects pop-up
+  
   const projects = [
     {
       name: "Keeping track of hundreds of components",
@@ -121,7 +123,6 @@ window.onload = function loader() {
   ];
 
   const recentWorks = document.querySelector(".recent-works");
-//   let card_id= `${card.id}`;
 
 
   const topper = document.createElement("div");
@@ -172,81 +173,7 @@ window.onload = function loader() {
     
 
   });
-
-
-  // pop-up window
-
-  // const overlay = document.createElement('div');
-  // overlay.classList.add('overlay');
-  // overlay.id="popup1";
-  // document.body.append(overlay);
-
-  // const popup = document.createElement('div');
-  // popup.classList.add('popup');
-  // overlay.appendChild (popup);
-
-  // const close = document.createElement('a');
-  // close.href = "#";
-  // close.classList.add("close");
-  // close.innerHTML = "&times;";
-  // popup.append(close);
-
-  // const content = document.createElement('div');
-  // content.classList.add("content");
-  // popup.append(content);
-
-  // const seeSection = document.createElement('div');
-  // seeSection.classList.add('see-section');
-  // seeSection.id = "desktop";
-  // popup.append(seeSection);
-
-  // const popImage = document.createElement('div');
-  // popImage.classList.add('pop-image');
-  // content.append(popImage);
-
-  // const popHeader = document.createElement('h2');
-  // popHeader.innerHTML = `${projects[0].name}`;
-  // content.append(popHeader);
-
-  // const popText = document.createElement("p");
-  // popText.innerHTML = "LoremIpsum";
-  // content.append(popText);
-
-  // const seeSection1 = document.createElement('div');
-  // seeSection1.classList.add('see-section-1');
-  // const live = document.createElement('a');
-  // live.href='www.dfvfv.com';
-  // live.innerHTML= "See Live";
-  // seeSection1.append(live);
-  // const seeimage = document.createElement('img');
-  // seeimage.src="images/see live icon.svg"
-  // seeSection1.append(seeimage);
-  // seeSection.append(seeSection1);
-
-  // const seeSection2 = document.createElement('div');
-  // seeSection2.classList.add('see-section-2');
-  // const source = document.createElement('a');
-  // source.href='www.ftttf.com';
-  // source.innerHTML= "See Source";
-  // seeSection2.append(source);
-  // const seeimage2 = document.createElement('img');
-  // seeimage2.src="images/Icon -GitHub.svg"
-  // seeSection2.append(seeimage2);
-  // seeSection.append(seeSection2);
-
-  // pop-up window
-
-  const open = document.querySelector(".button");
-  open.addEventListener("click", modal);
-
   const modal_pop = document.querySelector(".try");
-
-//   const specific;
-// for (let i = 0; i < cards.length; i++) {
-//     specific = card[i].id;
-    
-// }
-
 
   function modal() {
     let pops = '';
@@ -285,8 +212,4 @@ window.onload = function loader() {
     });
     modal_pop.innerHTML = pops;
   }
-//    modal();
-
-  const textNode = document.createTextNode("This is generated dynamically");
-  recentWorks.append(textNode);
 };
