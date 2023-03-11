@@ -739,14 +739,14 @@ input:focus {
 .error {
   font-size: 17px;
   font-weight: 500;
-  position:absolute;
+  position: absolute;
   width: 90%;
   background-color: #d0d9d4;
   color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px 0px 12px 24px;
+  padding: 12px 0 12px 24px;
   border-radius: 8px;
   text-align: center;
   margin-bottom: 89%;
@@ -1161,11 +1161,10 @@ hr {
     border-radius: 4px;
   }
 
-  .error{
-  /* position:absolute; */
-  width: 42%;
-
-}
+  .error {
+    /* position:absolute; */
+    width: 42%;
+  }
 
   hr {
     display: block;
