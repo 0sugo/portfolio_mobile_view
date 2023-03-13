@@ -155,19 +155,23 @@
             I'm always interested in hearing about new projects, so if you'd like to
             chat please get in touch.
         </h2>
-        <form class="contact_form" action="https://formspree.io/f/mayzodlp" method="post">
+        <form class="contact_form" id="contact-form" action="https://formspree.io/f/mayzodlp" method="post">
             <ul class="form-inputs">
                 <li>
+                    <label for="name"></label>
                     <input type="text" placeholder="Full name" required maxlength="30" id="name" name="user_name" />
                 </li>
                 <li>
+                    <label for="email"></label>
                     <input type="email" placeholder="Email address" id="email" required name="user_email" />
                 </li>
                 <li>
+                    <label for="message"></label>
                     <textarea id="message" name="user_message" maxlength="500" required
                         placeholder="Enter text here"></textarea>
                 </li>
                 <li><button type="submit" id="submit">Get in touch</button></li>
+                <span id="form-error" class="error" aria-live="polite">Your email needs to be in lowercase</span>
             </ul>
         </form>
     </section>
