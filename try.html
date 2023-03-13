@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #06D85F;
+  margin: 80px 0;
+}
+
+
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  /* margin: 10px auto; */
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 16px;
+  width: 343px;
+  height: 836px;
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 343px/2);
+  border: 1px solid #DFE1E6;
+  transition: all 5s ease-in-out;
+}
+
+.pop-image{
+    height: 311px;
+    height: 220px;
+    background: url('images/Snapshoot\ Portfolio.svg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:7.5px -10px;
+    border-radius: 8px;
+}
+
+.content h2 {
+  margin-top: 0;
+  color: #172B4D;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 311px;
+
+}
+.see-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    flex: 1;
+    gap: 12px;
+}
+.see-section-1{
+    background: #36b37f;
+    padding: 12px 16px;
+    border-radius: 4px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    top: 0;
+
+    
+}
+.see-section-2{
+    background: #36b37f;
+    padding: 12px 16px;
+    border-radius: 4px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    
+}
+.see-section a{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+
+}
+
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  overflow: auto;
+}
+
+
+    </style>
+</head>
+<body>
+    <section class="try">
+
+        <div class="box">
+            <a class="button" href="#popup1">Let me Pop up</a>
+        </div>
+        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a class="close" href="#popup1">&times;</a>
+                <div class="content">
+                    <div class="pop-image"></div>
+                    <h2>Keeping track of hundreds of components</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+
+                </div>
+                <div class="see-section">
+                    <div class="see-section-1"><a href="">See Live</a><img src="images/see live icon.svg" alt=""></div>
+                    <div class="see-section-2"><a href="">See Source</a><img src="images/Icon -GitHub.svg" alt=""></div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
