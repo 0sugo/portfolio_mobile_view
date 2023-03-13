@@ -209,8 +209,20 @@ window.onload = function loader() {
   const email = document.getElementById('email');
   const form = document.getElementById('contact-form');
   const errorMsg = document.getElementById('form-error');
+  const name = document.getElementById("name");
+  const message = document.getElementById("message");
 
   form.addEventListener('submit', (event) => {
+
+  localStorage.setItem('name' , document.getElementById("name").value);
+  localStorage.setItem('email' , document.getElementById("email").value);
+  localStorage.setItem('message' , document.getElementById("message").value);
+  
+  const setName = localStorage.getItem('name');
+  const setEmail = localStorage.getItem('email');
+  const setMessage = localStorage.getItem('message');
+  
+
     if (email.value !== email.value.toLowerCase()) {
       errorMsg.style.visibility = 'visible';
       event.preventDefault();
@@ -223,3 +235,12 @@ window.onload = function loader() {
     }
   });
 };
+
+
+
+
+
+
+
+
+
