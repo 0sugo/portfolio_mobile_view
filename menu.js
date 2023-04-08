@@ -17,54 +17,53 @@ window.onload = function loader() {
 
   const cards = [
     {
-      name: 'Multi-Post Stories Gain+Glory',
-      tech: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+      name: 'To-Do List',
+      tech: ['CSS', 'Javascript', 'HTML'],
       index: '1',
       id: 'one',
     },
     {
-      name: 'Multi-Post Stories Gain+Glory',
-      tech: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+      name: 'Carnect summit',
+      tech: ['CSS', 'Javascript', 'HTML'],
       index: '2',
       id: 'two',
     },
     {
-      name: 'Multi-Post Stories Gain+Glory',
-      tech: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+      name: 'Portfolio Mobile View',
+      tech: ['CSS', 'Javascript', 'HTML'],
       index: '3',
       id: 'three',
     },
     {
       name: 'Multi-Post Stories Gain+Glory',
-      tech: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+      tech: ['Rubry on Rails', 'CSS', 'Javascript', 'HTML'],
       index: '4',
       id: 'four',
     },
     {
       name: 'Multi-Post Stories Gain+Glory',
-      tech: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+      tech: ['Rubry on Rails', 'CSS', 'Javascript', 'HTML'],
       index: '5',
       id: 'five',
     },
     {
       name: 'Multi-Post Stories Gain+Glory',
-      tech: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
+      tech: ['Rubry on Rails', 'CSS', 'Javascript', 'HTML'],
       index: '6',
       id: 'six',
     },
   ];
 
   // Array of Projects pop-up
-
   const projects = [
     {
-      name: 'Keeping track of hundreds of components',
-      image: 'images/Snapshoot-Portfolio.svg',
+      name: 'To-Do-List',
+      image: 'images/project1.png',
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-      live: 'https://github.com/0sugo/portfolio_mobile_view',
-      source: 'https://0sugo.github.io/portfolio_mobile_view/',
+        "This Todo-list app was designed to help people keep track of to-do taskswhere they can list the days task and delete them on completion.Built using JavaScript, HTML and CSS..",
+      technologies: ['CSS', 'JavaScript', 'HTML'],
+      live: 'https://0sugo.github.io/to-do-list/dist/',
+      source: 'https://github.com/0sugo/to-do-list',
       index: 'one',
     },
     {
@@ -72,7 +71,7 @@ window.onload = function loader() {
       image: 'images/Snapshoot-Portfolio.svg',
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+      technologies: ['CSS', 'JavaScript', 'HTML'],
       live: 'https://github.com/0sugo/portfolio_mobile_view',
       source: 'https://0sugo.github.io/portfolio_mobile_view/',
       index: 'two',
@@ -224,7 +223,7 @@ window.onload = function loader() {
   
 
     if (email.value !== email.value.toLowerCase()) {
-      errorMsg.style.visibility = 'visible';
+      errorMsg.style.visibility = 'vis   ible';
       event.preventDefault();
     } else if (email.validity.typeMismatch) {
       errorMsg.textContent = 'Please enter a valid email address';
